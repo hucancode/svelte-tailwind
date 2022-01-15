@@ -5,7 +5,9 @@
 		return {};
 	}
 </script>
+
 <script>
 	import '@styles/app.css';
 </script>
+
 <slot />
