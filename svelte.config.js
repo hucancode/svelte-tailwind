@@ -14,7 +14,8 @@ const config = {
             resolve: {
                 alias: {
                     '@components': path.resolve('./src/components'),
-					'@styles': path.resolve('./src/styles')
+					'@styles': path.resolve('./src/styles'),
+                    '@locales': path.resolve('./src/locales')
                 }
             }
         }
