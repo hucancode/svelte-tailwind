@@ -1,6 +1,3 @@
-<script>
-	import '@styles/app.css';
-</script>
 <script context="module">
 	import init from '@locales/i18n';
 	export async function load() {
@@ -8,5 +5,7 @@
 		return {};
 	}
 </script>
-
+<script>
+	import '@styles/app.css';
+</script>
 <slot />

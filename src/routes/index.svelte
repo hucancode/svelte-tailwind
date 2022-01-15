@@ -1,3 +1,6 @@
+<script context="module">
+	export const prerender = true;
+</script>
 <script>
 	import WavingHand from '@components/waving-hand.svelte';
 	import { _ } from 'svelte-i18n';
