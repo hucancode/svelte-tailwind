@@ -10,9 +10,8 @@
 		<h1 class="welcome">
 			{@html $_('welcome')}
 		</h1>
-		<p class="font-thin ">
-			Visit <a class="hover:text-blue-500" href="https://kit.svelte.dev">kit.svelte.dev</a> to read the
-			documentation
+		<p class="help-text">
+			{@html $_('help-text')}
 		</p>
 	</div>
 </div>
