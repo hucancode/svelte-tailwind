@@ -1,3 +1,3 @@
 {
-    "welcome": "Welcome to"
+    "welcome": "Welcome to <span>Sveltekit</span>!"
 }

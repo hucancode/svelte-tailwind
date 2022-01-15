@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .flex-col-center {
+        @apply flex flex-col justify-center items-center;
+    }
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+    .welcome {
+        @apply text-4xl font-bold text-gray-800;
+        span {
+            @apply font-logo-cursive mr-3;
+        }
+    }
+}
