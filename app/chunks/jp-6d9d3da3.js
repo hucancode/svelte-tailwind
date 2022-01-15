@@ -1,0 +1,1 @@
+const e="<span>Sveltekit</span>\u3078\u3088\u3046\u3053\u305D\uFF01";var t={welcome:e,"help-text":'\u8A73\u7D30\u306F <a href="https://kit.svelte.dev">kit.svelte.dev</a> \u306B\u3054\u53C2\u8003\u304F\u3060\u3055\u3044\u3002'};export{t as default,e as welcome};
