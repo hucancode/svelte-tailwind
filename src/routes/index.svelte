@@ -5,6 +5,9 @@
 	import WavingHand from '@components/waving-hand.svelte';
 	import { _ } from 'svelte-i18n';
 </script>
+<svelte:head>
+	<title>SvelteKit</title>
+</svelte:head>
 <div class="flex-center gap-7 
 	w-screen h-screen bg-gray-100 dark:bg-gray-800
 	text-black dark:text-white">
