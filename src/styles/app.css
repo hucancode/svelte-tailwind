@@ -7,19 +7,8 @@
 	.flex-col-center {
 		@apply flex flex-col justify-center items-center;
 	}
-	.flex-center, .flex-row-center {
+	.flex-center,
+	.flex-row-center {
 		@apply flex justify-center items-center;
-	}
-	.welcome {
-		@apply text-4xl font-bold;
-		span {
-			@apply font-logo-cursive mr-3;
-		}
-	}
-	.help-text {
-		@apply font-thin;
-		a {
-			@apply hover:text-blue-500;
-		}
 	}
 }

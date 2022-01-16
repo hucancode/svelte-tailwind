@@ -25,3 +25,18 @@
 		</p>
 	</div>
 </div>
+
+<style lang="postcss" global>
+	.welcome {
+		@apply text-4xl font-bold;
+		span {
+			@apply font-logo-cursive mr-3;
+		}
+	}
+	.help-text {
+		@apply font-thin;
+		a {
+			@apply hover:text-blue-500;
+		}
+	}
+</style>
