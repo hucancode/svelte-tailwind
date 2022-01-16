@@ -7,7 +7,7 @@
 	.flex-col-center {
 		@apply flex flex-col justify-center items-center;
 	}
-	.flex-center {
+	.flex-center, .flex-row-center {
 		@apply flex justify-center items-center;
 	}
 	.welcome {
