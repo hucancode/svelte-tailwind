@@ -7,6 +7,6 @@
 
 <style lang="postcss">
 	span {
-		@apply animate-waving-hand inline-block origin-[70%_70%];
+		@apply inline-block origin-[70%_70%] animate-waving-hand;
 	}
 </style>

@@ -7,7 +7,6 @@ import path from 'path';
 const config = {
 	kit: {
 		adapter: adapter(),
-		target: 'body',
 		vite: {
 			resolve: {
 				alias: {

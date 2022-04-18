@@ -11,9 +11,9 @@
 	<title>SvelteKit</title>
 </svelte:head>
 <div
-	class="flex-col-center gap-7 
-	w-screen h-screen bg-gray-100 dark:bg-gray-800
-	text-black dark:text-white"
+	class="flex-col-center h-screen 
+	w-screen gap-7 bg-gray-100 text-black
+	dark:bg-gray-800 dark:text-white"
 >
 	<WavingHand class="text-7xl" />
 	<div class="flex-col-center text-center">
@@ -30,7 +30,7 @@
 	.welcome {
 		@apply text-4xl font-bold;
 		span {
-			@apply font-logo-cursive mr-3;
+			@apply mr-3 font-logo-cursive;
 		}
 	}
 	.help-text {
